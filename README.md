@@ -57,6 +57,22 @@ that is "\n".
   Sentiment140 consists of Twitter messages with emoticons, which are used as noisy labels for sentiment classification. For more detailed information please refer to the paper.
   url = "http://help.sentiment140.com/home"
   data_url = "http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip"
+  
+ ### **UIT-VSFC**
+ 
+Vietnamese Students' Feedback Corpus (UIT-VSFC), a free and high-quality corpus for research on two different tasks: sentiment-based and topic-based classifications on over 16,000 sentences.
+ 
+    @inproceedings{van2018uit,
+     title={UIT-VSFC: Vietnamese students’ feedback corpus for sentiment analysis},
+     author={Van Nguyen, Kiet and Nguyen, Vu Duc and Nguyen, Phu XV and Truong, Tham TH and Nguyen, Ngan Luu-Thuy},
+     booktitle={2018 10th international conference on knowledge and systems engineering (KSE)},
+     pages={19--24},
+     year={2018},
+     organization={IEEE}
+   }
+   
+ dat_url = "https://huggingface.co/datasets/uit-nlp/vietnamese_students_feedback"
+
  ## Multi-domain Sentiment Analysis
 
  ## Aspect-based Sentiment Analysis
